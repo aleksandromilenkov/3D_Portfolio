@@ -50,6 +50,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -135,7 +139,7 @@ const technologies = [
 
 const educations = [
   {
-    where: "University Gotse Delchev Shtip",
+    where: "University Goce Delchev Shtip",
     nasoka: "Compunter Science",
     date: "Oct 2016 - Dec 2021",
     icon: university,
@@ -220,7 +224,7 @@ const experiences = [
     company_name: "Allocate Software",
     icon: allocate,
     iconBg: "#E6DEDD",
-    date: "May 2023 - Present",
+    date: "May 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js, .NET, Altova XML and other technologies",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
