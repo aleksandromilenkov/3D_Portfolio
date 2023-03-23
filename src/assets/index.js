@@ -45,6 +45,8 @@ import veton from "./veton.jpg";
 
 import university from "./university.png";
 import everest from "./everest.png";
+import youtubeClone from "./youtubeClone.png";
+import bodyArt from "./bodyArt.png";
 export {
   logo,
   backend,
@@ -90,4 +92,6 @@ export {
   veton,
   everest,
   university,
+  youtubeClone,
+  bodyArt,
 };

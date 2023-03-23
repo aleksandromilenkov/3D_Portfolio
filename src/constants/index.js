@@ -38,6 +38,8 @@ import {
   veton,
   university,
   everest,
+  youtubeClone,
+  bodyArt,
 } from "../assets";
 
 export const navLinks = [
@@ -316,6 +318,28 @@ const projects = [
     live_hosted_link: "https://headphones-e-commerce.vercel.app/",
   },
   {
+    name: "YouTube Clone",
+    description:
+      "This is React application created with create-react-app for displaying videos of different categories. I'm using Material UI for styling the components. This app is also using Axios for fetching the videos from Rapid API which is free API for youtube videos.",
+    tags: [
+      {
+        name: "reactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RapidAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MaterialUI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: youtubeClone,
+    source_code_link: "https://github.com/aleksandromilenkov/youtubeClone",
+    live_hosted_link: "https://aleksandro-media.netlify.app/",
+  },
+  {
     name: "Today I Learned",
     description:
       "Web app created with ReactJS and Supabase backend for storing facts. The users can search, post and like a fact in different categories",
@@ -358,6 +382,28 @@ const projects = [
     image: greatQuotes,
     source_code_link: "https://github.com/aleksandromilenkov/GreatQuotes",
     live_hosted_link: "https://greatquotes-aleksandro.netlify.app",
+  },
+  {
+    name: "Body Art Gym App",
+    description:
+      "This is React application for gym named 'Body Art' based in Sveti Nikole, Macedonia. The app is made for searching exercises, watch gifs and videos of how to do those exercises, read about the exercises for all body parts. I'm using Material UI for the styling, I'm fetching the data from Rapid API",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MaterialUI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "RapidAPI",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: bodyArt,
+    source_code_link: "https://github.com/aleksandromilenkov/bodyArt",
+    live_hosted_link: "https://bodyart-svetinikole.netlify.app/",
   },
   {
     name: "Forkify",
