@@ -33,7 +33,11 @@ import papaginos from "./company/papaginos.png";
 import shareme from "./shareme.png";
 import headphonesEcommerce from "./headphonesEcommerce.png";
 import todayILearned from "./todayILearned.png";
-import greatQuotes from "./greatQuotes.png";
+import shareYourPlace from "./shareYourPlace.png";
+import feedsPosts from "./feedsPosts.png";
+import expressShop from "./expressShop.png";
+import natours from "./natours.png";
+import sociopedia from "./sociopediaDark.png";
 import forkify from "./forkify.png";
 import mapty from "./mapty.png";
 import atmapp from "./atmapp.png";
@@ -81,7 +85,11 @@ export {
   shareme,
   headphonesEcommerce,
   todayILearned,
-  greatQuotes,
+  shareYourPlace,
+  feedsPosts,
+  expressShop,
+  natours,
+  sociopedia,
   forkify,
   mapty,
   atmapp,

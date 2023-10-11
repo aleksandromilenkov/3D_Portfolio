@@ -18,7 +18,7 @@ import {
   shareme,
   headphonesEcommerce,
   todayILearned,
-  greatQuotes,
+  shareYourPlace,
   forkify,
   mapty,
   atmapp,
@@ -40,6 +40,10 @@ import {
   everest,
   youtubeClone,
   bodyArt,
+  feedsPosts,
+  expressShop,
+  natours,
+  sociopedia,
 } from "../assets";
 
 export const navLinks = [
@@ -265,6 +269,177 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Sociopedia - The Social Media App",
+    description: "Fullstack MERN app for social media platform",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongoose",
+        color: "red-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MaterialUI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: sociopedia,
+    source_code_link: "https://github.com/aleksandromilenkov/socialpedia",
+    live_hosted_link: "https://github.com/aleksandromilenkov/socialpedia",
+  },
+  {
+    name: "Natours App",
+    description: "Express.js REST API with EJS Views and JavaScript",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Mongoose",
+        color: "red-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "EJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: natours,
+    source_code_link: "https://github.com/aleksandromilenkov/NatoursAPI",
+    live_hosted_link: "https://github.com/aleksandromilenkov/NatoursAPI",
+  },
+  {
+    name: "Express Shop",
+    description: "Fullstack Express.js app for online shop",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Mongoose",
+        color: "red-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "EJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: expressShop,
+    source_code_link: "https://github.com/aleksandromilenkov/expressShop",
+    live_hosted_link: "https://github.com/aleksandromilenkov/expressShop",
+  },
+  {
+    name: "Feeds App",
+    description:
+      "Fullstack MERN application for creating and sharing posts in a news feeds",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongoose",
+        color: "red-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: feedsPosts,
+    source_code_link: "https://github.com/aleksandromilenkov/FeedsRESTAPI",
+    live_hosted_link: "https://github.com/aleksandromilenkov/FeedsRESTAPI",
+  },
+  {
+    name: "Share Your Place",
+    description:
+      "Fullstack MERN application for sharing your place(bussines,historical or other place)",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongoose",
+        color: "red-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: shareYourPlace,
+    source_code_link: "https://github.com/aleksandromilenkov/shareYourPlace",
+    live_hosted_link: "https://github.com/aleksandromilenkov/shareYourPlace",
+  },
+  {
     name: "Share Me",
     description:
       "Web-based platform that allows users to login with Google, create a Pin, search for Pins, like a Pin, download it and more! This is social media clone app.",
@@ -361,28 +536,7 @@ const projects = [
     source_code_link: "https://github.com/aleksandromilenkov/TodayILearned",
     live_hosted_link: "https://todayilearned-aleksandro.netlify.app/",
   },
-  {
-    name: "Great Quotes",
-    description:
-      "Web app created with ReactJS and Firebase for storing and posting quotes",
-    tags: [
-      {
-        name: "reactJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-    ],
-    image: greatQuotes,
-    source_code_link: "https://github.com/aleksandromilenkov/GreatQuotes",
-    live_hosted_link: "https://greatquotes-aleksandro.netlify.app",
-  },
+
   {
     name: "Body Art Gym App",
     description:
