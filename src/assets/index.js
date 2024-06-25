@@ -51,6 +51,9 @@ import university from "./university.png";
 import everest from "./everest.png";
 import youtubeClone from "./youtubeClone.png";
 import bodyArt from "./bodyArt.png";
+import oasis from "./oasis.png";
+import finshark from "./finshark.png";
+import fastPizza from "./fastPizza.png";
 export {
   logo,
   backend,
@@ -102,4 +105,7 @@ export {
   university,
   youtubeClone,
   bodyArt,
+  oasis,
+  finshark,
+  fastPizza,
 };

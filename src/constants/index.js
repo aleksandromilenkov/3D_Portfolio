@@ -44,6 +44,9 @@ import {
   expressShop,
   natours,
   sociopedia,
+  oasis,
+  finshark,
+  fastPizza,
 } from "../assets";
 
 export const navLinks = [
@@ -227,12 +230,12 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Allocate Software",
+    company_name: "RLDatix",
     icon: allocate,
     iconBg: "#E6DEDD",
     date: "May 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js, .NET, Altova XML and other technologies",
+      "Developing and maintaining web applications for the Health Care system using React.js and .NET",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -268,6 +271,80 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "The Wild Oasis - App for the Admins of the Hotel",
+    description:
+      "React.js app with Supabase backend for the admins of the Oasis hotel. You can register, login and manipulating with user's booking for hotel's cabins and more!",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tanstack Query",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: oasis,
+    source_code_link: "https://github.com/aleksandromilenkov/TheWildOasis",
+    live_hosted_link: "https://wild-oasis-aleksandro.netlify.app/",
+  },
+  {
+    name: "Fast Pizza - React app for ordering pizzas",
+    description:
+      "React.js app where you enter your name, then select how many pizzas you like and in the bottom of the screen you'll see your cart and the current overall price for your current order.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: fastPizza,
+    source_code_link: "https://github.com/aleksandromilenkov/FastReactPizza",
+    live_hosted_link: "https://aleksandro-pizza-order.netlify.app/",
+  },
+  {
+    name: "FinShark - app for Stock data",
+    description:
+      "This app is using stock data from the archives of www.sec.gov so its accurate data. This is Full-stack app with ASP.NET Web API for the backend and React.js for the frontend. You can register, login, search, comment and more!",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ASP.NET Web API",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Entity Framework Core",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Sql Server",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "JWT Bearer",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: finshark,
+    source_code_link: "https://github.com/aleksandromilenkov/FinanceProject",
+    live_hosted_link: "https://github.com/aleksandromilenkov/FinanceProject",
+  },
   {
     name: "Sociopedia - The Social Media App",
     description: "Fullstack MERN app for social media platform",
