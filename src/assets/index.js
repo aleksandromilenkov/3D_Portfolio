@@ -54,6 +54,7 @@ import bodyArt from "./bodyArt.png";
 import oasis from "./oasis.png";
 import finshark from "./finshark.png";
 import fastPizza from "./fastPizza.png";
+import carSellers from "./carSellers.png";
 export {
   logo,
   backend,
@@ -108,4 +109,5 @@ export {
   oasis,
   finshark,
   fastPizza,
+  carSellers,
 };

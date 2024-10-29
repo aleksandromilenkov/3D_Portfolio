@@ -47,6 +47,7 @@ import {
   oasis,
   finshark,
   fastPizza,
+  carSellers
 } from "../assets";
 
 export const navLinks = [
@@ -271,6 +272,40 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "CarSellers - app for Car Dealers Companies",
+    description:
+      "This app has ASP.NET Web API backend with React.js frontend. Admin users can create, edit, delete the Car Companies, Cars, Manufacturers and CarModels. Users can add cars to favorites. You can upload images and request for a new password if forgotten.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ASP.NET Web API",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Entity Framework Core",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Sql Server",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "JWT Bearer",
+        color: "pink-text-gradient",
+      },
+            {
+        name: "MailKit",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carSellers,
+    source_code_link: "https://github.com/aleksandromilenkov/CarSellers",
+    live_hosted_link: "https://github.com/aleksandromilenkov/CarSellersClient",
+  },
   {
     name: "The Wild Oasis - App for the Admins of the Hotel",
     description:
