@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { MdEmail } from 'react-icons/md';
+import { FaPhoneAlt } from 'react-icons/fa';
 
 //template_fw7n3da
 //service_vsp16ae
@@ -78,7 +80,10 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-
+        <div className="flex flex-col gap-2 justify-center">
+          <p className="flex gap-1"><MdEmail size={30} /> <span>aleksandro.macedonia@gmail.com</span> </p>
+          <p className="flex gap-1"><FaPhoneAlt size={30} /> <a href="tel:+38975260480">+389 75 260 480</a> </p>
+        </div>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
